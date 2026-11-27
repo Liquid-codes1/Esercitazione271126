@@ -9,7 +9,7 @@ public class Cliente {
 	public void displayInfoCliente() {
 		String statoCliente; //me la dichiaro qui, tanto mi servirà solo per un valore, inutile dichiararlo prima
 		
-		if (clienteNuovo == true) {
+		if (clienteNuovo == true) { //ho fatto letteralmente come su JavaScript per vedere se fosse la stessa cosa
 			statoCliente = "Nuovo";
 		} else {
 			statoCliente = "Preesistente";
